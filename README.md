@@ -1,6 +1,6 @@
-# [Rustlings]("https://rustlings.rust-lang.org/") 🦀
+# [Rustlings](https://rustlings.rust-lang.org/) 🦀
 
-Rustlings is a collection of exercises that teaches you the fundamentals of reading and writing [Rust]("https://rust-lang.org/") code. It's an alternative to [Rust by Example]("https://doc.rust-lang.org/rust-by-example/") that works with your own environment. This is my work-through of the Rustlings course, that I used to supplement the [Official Rust Book]("https://doc.rust-lang.org/book/") for a more hands-on approach to learning. Because as pleasurable it is to read this extremely well written book, reading hundreds of pages of dense documentation is not my jam.
+Rustlings is a collection of exercises that teaches you the fundamentals of reading and writing [Rust](https://rust-lang.org/) code. It's an alternative to [Rust by Example](https://doc.rust-lang.org/rust-by-example/) that works with your own environment. This is my work-through of the Rustlings course, that I used to supplement the [Official Rust Book](https://doc.rust-lang.org/book/) for a more hands-on approach to learning. Because as pleasurable it is to read this extremely well written book, reading hundreds of pages of dense documentation is not my jam.
 
 ## Quick start
 
