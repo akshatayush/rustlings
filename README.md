@@ -4,13 +4,26 @@ Rustlings is a collection of exercises that teaches you the fundamentals of read
 
 ## Quick start
 
-*Ensure the Rust tool-chain is installed. duh...*
+*Ensure the Rust tool-chain is installed. [duh](https://rust-lang.org/tools/install/)...*
 
 ```bash
-cargo install rustlings       # Installation
-~/.cargo/bin/rustlings init   # Creates a directory named rustlings
-cd rustlings                  # Move into new directory
-~/.cargo/bin/rustlings        # Start the watch daemon
+rustup toolchain install stable   # Install rust tool-chain
+cargo install rustlings           # Cargo is installed with the tool-chain
+```
+
+<a name="tip-anchor"></a>
+> [!TIP]
+> Adding [`CARGO_HOME`](https://doc.rust-lang.org/cargo/guide/cargo-home.html) to your `PATH` environment variable will allow you to use programs installed via cargo as commands on your CLI.
+
+```bash
+export $PATH="$HOME/.cargo/bin:$PATH"
+```
+
+*Finally[^1]...*
+```bash
+rustlings init  # Creates a directory named rustlings
+cd rustlings    # Move into new directory
+rustlings       # Start the watch daemon
 ```
 
 ## How it works
@@ -48,3 +61,4 @@ cd rustlings                  # Move into new directory
 | clippy                 | Appendix D          |
 | conversions            | n/a                 |
 
+[^1]: If it wasn't *finally* for you :(, try following the [tip](#tip-anchor)
